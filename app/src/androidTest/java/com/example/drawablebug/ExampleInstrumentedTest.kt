@@ -27,7 +27,7 @@ class ExampleInstrumentedTest {
         KImageView {
             withId(R.id.imageViewBottomTabItem)
             withDrawable(resId = R.drawable.test_drawable)
-        }.isDisabled()
+        }.isVisible()
     }
 
 }
